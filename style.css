@@ -7,6 +7,36 @@ html {
     box-sizing: inherit;
   }
   
-#fuck {
-    font-size: 10px;
+.links-list a {
+  background-color: rgb(179,57,81);
+  padding: 2em 4em;
+  display: inline-block;
+  margin: 2em;
+  color: #ffff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.links-list a:hover {
+  background-color: rgb(66, 28, 40);
+  color: #ffff;
+}
+
+div.container {
+  text-align: center;
+}
+
+.links-list {
+  display: inline-block;
+  text-align: center;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.container h1 {
+  padding-left: 40px;
 }
