@@ -22,21 +22,38 @@ html {
   color: #ffff;
 }
 
+h1,
 div.container {
   text-align: center;
 }
 
 .links-list {
   display: inline-block;
-  text-align: center;
+  text-align: left;
   list-style-type: none;
 }
 
 img {
   display: block;
   margin: 0 auto;
+  width: 450px;
+  height: auto;
 }
 
 .container h1 {
   padding-left: 40px;
+}
+
+p,
+ul,
+h2,
+h3,
+ol {
+  font-size: larger;
+}
+
+ol span {
+  display: inline-block;
+  padding: 8px;
+  background-color: blueviolet;
 }
